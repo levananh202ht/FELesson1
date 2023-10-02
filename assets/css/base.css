@@ -1,0 +1,43 @@
+:root{
+    --white-color: #ffffff;
+    --text-color: #4b3049;
+    --pillow-color: #b08ead;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    margin-top: 0;
+    font-size: 62.5%;
+    line-height: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    /* max-width: 100%; */
+    margin: 0 auto;
+}
+.pillow{
+    height: 1536px;
+}
+@keyframes fadeIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeOn {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+}
